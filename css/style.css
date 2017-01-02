@@ -1,0 +1,64 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  width: 620px;
+  margin: 3em auto;
+  background: url('http://goo.gl/jY2g3J');
+}
+
+#heading{
+  color:Black;
+  margin: 0px 0px 50px 10px;
+  font-size: 30px;
+  border: 5px double #ed2553;
+  font-style: solid;
+}
+.main {
+  background-color: #ffffff;
+  padding: .5em 0;
+}
+
+
+.pas{
+  margin: 2em 1em;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    vertical-align: top;
+    border: 2px solid #ed2553;
+    border-radius: 4px;
+    font-size: 1.25em;
+    margin: 10px 5px;
+    font-weight: 100;
+    padding: 10px 10px 10px 0;
+    text-indent: 18px;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+#submit {
+  width: 20em;
+  color: #ffffff;
+  background-color: #ed2553;
+  border: none;
+  padding: 10px 10px 10px 0;
+  font-size: 1.25em;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+
+}
+
+
